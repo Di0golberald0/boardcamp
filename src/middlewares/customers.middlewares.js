@@ -1,5 +1,5 @@
 import { customerSchemma } from "../Schemas/Customers.js";
-import { connectionDB } from "../database/db.js";
+import { connectionDB } from "../database/database.js";
 
 export async function validSchemaCustomer(req, res, next) {
   const customer = req.body;

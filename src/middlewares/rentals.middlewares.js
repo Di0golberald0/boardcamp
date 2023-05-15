@@ -1,4 +1,4 @@
-import { connectionDB } from "../database/db.js";
+import { connectionDB } from "../database/database.js";
 import { rentalSchemma } from "../Schemas/Rentals.js";
 import dayjs from "dayjs";
 

@@ -1,4 +1,4 @@
-import { connectionDB } from "../database/db.js";
+import { connectionDB } from "../database/database.js";
 
 export async function create(req, res) {
   const { name, phone, cpf, birthday } = res.locals.customer;
