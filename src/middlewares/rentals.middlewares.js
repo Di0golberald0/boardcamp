@@ -1,5 +1,5 @@
 import { connectionDB } from "../database/db.js";
-import { rentalSchemma } from "../models/Rentals.js";
+import { rentalSchemma } from "../Schemas/Rentals.js";
 import dayjs from "dayjs";
 
 export async function validSchemaRentals(req, res, next) {

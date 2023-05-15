@@ -1,4 +1,4 @@
-import { categorieSchemma } from "../models/Categories.js";
+import { categorieSchemma } from "../Schemas/Categories.js";
 import { connectionDB } from "../database/database.js";
 
 export async function validSchemaCategories(req, res, next) {

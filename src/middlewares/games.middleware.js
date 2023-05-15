@@ -1,5 +1,5 @@
 import { connectionDB } from "../database/db.js";
-import { gameSchemma } from "../models/Games.js";
+import { gameSchemma } from "../Schemas/Games.js";
 
 export async function validSchemaGames(req, res, next) {
   const game = req.body;
